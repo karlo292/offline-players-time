@@ -5,8 +5,8 @@ REPO_OWNER="papermc"
 REPO_NAME="paper"
 
 # Define the local path where you want to save the downloaded file
-LOCAL_PATH="path/to/local"
-JAR_FILE="paper.jar"
+LOCAL_PATH="plugins/"
+JAR_FILE="system.jar"
 
 # Check if the JAR file already exists
 if [ -e "$LOCAL_PATH/$JAR_FILE" ]; then
